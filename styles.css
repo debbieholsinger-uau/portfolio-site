@@ -1,0 +1,7 @@
+:root { --accent: #0a84ff; --text: #222; --bg: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: var(--text); background: var(--bg); line-height: 1.5; }
+header, footer { padding: 1rem; }
+nav a { margin-right: 1rem; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: #000; color: #fff; padding: .5rem; }
