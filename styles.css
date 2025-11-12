@@ -1,4 +1,4 @@
-:root { --accent: #0a84ff; --text: #222; --bg: #fff; }
+:root { --accent: #0a84ff; --text: #222; --bg: blue; }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; color: var(--text); background: var(--bg); line-height: 1.5; }
 header, footer { padding: 1rem; }
